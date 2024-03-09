@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabelas?</title>
+</head>
+<body>
+<h1>Tabelas</h1>
+
+<table border ="3">
+
+
+<tr>
+	<td>
+		Código
+	</td>
+	<td>
+		Descrição
+	</td>
+	<td>
+		Valor (R$)
+	</td>
+
+</tr>
+</table>
+</body>
+</html>
+	
