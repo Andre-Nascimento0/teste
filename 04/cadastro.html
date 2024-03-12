@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro</title>
+	</head>
+
+<body>
+
+<h1>Cadastro</h1>
+<form action=http://191.252.62.149:8080/pweb/salvar.jsp method=post>
+ Login:<br/>
+ <input type=text name=login><br/>
+
+ Senha:<br/>
+ <input type=password name=senha><br/>
+
+ Confirme a Senha:<br/>
+ <input type=password name=confirmaSenha><br/>
+
+ Nome<br/>
+ <input type=text name=nome><br/>
+
+ Sexo:<br/>
+ <input type=radio name=sexo>Masculino<br/>
+ <input type=radio name=sexo>Feminino<br/>
+
+ E-mail:<br/>
+ <input type=email name=Email><br/>
+
+ Interesses:<br/>
+ <input type=checkbox name=interesses>Futebol<br/>
+ <input type=checkbox name=interesses>Política<br/>
+ <input type=checkbox name=interesses>Economia<br/>
+ <input type=checkbox name=interesses>Carros<br/>
+ <input type=checkbox name=interesses>Celebridades<br/>
+
+ <br/>
+ 
+ <input type=submit value=Enviar>
+
+ <br/>
+ <br/>
+
+ <label for="Estados">Estado:</label>
+
+ <br/>
+ 
+ <select name="Estados" id="Estados">
+  <option value="Maranhão">MA</option>
+  <option value="Piauí">PI</option>
+  <option value="Ceará">CE</option>
+  <option value="Distrito Federal">DF</option>
+ </select>
+
+ <br/>
+ <label for="Observações">Observações:</label>
+
+ <br/>
+
+ <textarea id="Observações" name="Observações" rows="4" cols="50">
+
+ </textarea>
+
+</form>
+</body>
+</html>
