@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Box Model? ou Posicionamento?</title>
+		<meta charset="utf-8"/>
+
+		<style type="text/css">
+
+			body {
+				background: #61bd8c;
+			}
+
+			#conteudo{
+				background: #FFFFFF;
+				padding: 10px;
+				width: 900px;
+				margin: 30px auto/*100px*/;
+			}
+
+			.caixa {
+				background: red;
+				margin: 10px;
+				width: 100px;
+				height: 100px;
+				color: #FFFFFF;
+			}
+			
+			#relativo{
+				position: relative;
+				left: 100px;
+			}
+			
+			#absoluto {
+				position: absolute;
+				left: 30px;
+			}
+
+			#fixo{
+				position: fixed;
+				left:30 px;
+				top: 0px;
+			}
+			
+			.classe-div-pai-exerc-1 {
+				border: 4px solid black;				
+				margin-left: 320px;
+				height: 800px;						
+			}
+			
+			.classe-div-filha_1-exerc-1 {				
+				background: #9999FF;
+				height: 100px;
+				position:fixed;
+				width:74.5%;				
+			}
+			
+			.classe-div-filha_2-exerc-1{				
+				background: #FF8164;
+				height: 50px;				
+			}
+
+			.classe-div-filha_3-exerc-1{				
+				background: #F7F5BC;
+				width: 25%;
+				height: 600px;
+				float: left;				
+			}
+
+			.classe-div-filha_4-exerc-1{				
+				background: #98FB98;
+				width: 50%;
+				height: 600px;
+				float: left;				
+			}
+
+			.classe-div-filha_5-exerc-1{				
+				background: #F1B04C;
+				width: 25%;
+				height: 600px;
+				float: right;				
+			}
+
+			.classe-div-filha_6-exerc-1{				
+				background: #DA8EE7;				
+				height: 50px;
+				clear: left;					
+			}
+
+			.classe-div-pai-exerc-2{
+				height:600px;
+				border: 4px solid black;
+				margin-left:300px;
+			}
+
+			.classe-div-filha_1-exerc-2{
+				height:50px;
+				background: #FF6242;
+			}
+
+			.classe-div-filha_2-exerc-2{
+				height:100px;
+				background: #4E4FD1;
+			}
+
+			.classe-div-filha_3-exerc-2{
+				height:400px;
+				background: #8CBC46;
+				width: 70%;
+				float: left;
+			}
+
+			.classe-div-filha_4-exerc-2{
+				height:400px;
+				background: #476930;
+				width: 30%;
+				float: left;
+				position: fixed;
+				left: 932px;
+			}
+
+			.classe-div-filha_5-exerc-2{
+				height:50px;
+				background: #BB7C23;					
+				clear: left;			
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<span>Container body</span>
+		<div id = conteudo>
+			Container div
+
+			<div id="relativo" class="caixa">
+				Relativo
+			</div>
+			
+			<div id="absoluto" class="caixa">
+				Absoluto
+			</div>
+
+			<div id="fixo" class="caixa">
+				Fixo
+			</div>			
+		</div>
+
+		<div class="classe-div-pai-exerc-1">
+
+			<!--Exercícios_div 1-->
+
+			<div class="classe-div-filha_1-exerc-1">
+				Header
+			</div>
+
+			<div class="classe-div-filha_2-exerc-1">
+				Menu
+			</div>
+
+			<div class="classe-div-filha_3-exerc-1">
+				Left
+			</div>
+
+			<div class="classe-div-filha_4-exerc-1">
+				Center
+			</div>
+
+			<div class="classe-div-filha_5-exerc-1">
+				Right
+			</div>
+			
+			<div class="classe-div-filha_6-exerc-1">
+				Footer
+			</div>			
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="classe-div-pai-exerc-2">
+
+			<!--Exercícios_div 2-->
+
+			<div class="classe-div-filha_1-exerc-2">
+				MAIN MENU
+			</div>
+
+			<div class="classe-div-filha_2-exerc-2">
+				HEADER
+			</div>
+
+			<div class="classe-div-filha_3-exerc-2">
+				CONTENT
+			</div>
+
+			<div class="classe-div-filha_4-exerc-2">
+				SIDE BAR
+			</div>
+
+			<div class="classe-div-filha_5-exerc-2">
+				FOOTER
+			</div>
+			
+			<!--<div class="classe-div-filha_6-exerc-1">
+				Footer
+			</div>-->			
+		</div>
+	<!--atributo position é usado conjuntamente com left, right, top, bottom; no caso de fixed. Nos outros, ver caso a caso. -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+		****** LINKS PARA PÁGINAS SEPARADAS ******<br><br>
+		<a href="layout por div e parametro position_1.html">Layout por div e parametro position-questão 1</a><br><br>
+		<a href="layout por div e parametro position_2.html">Layout por div e parametro position-questão 2</a><br><br>
+		<a href="layout_div1.html">Layout por div SEM POSITION-questão 1</a><br><br>
+		<a href="layout_div2.html">Layout por div SEM POSITION-questão 2</a><br><br>
+	</body>
+
+</html>
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layouts com tags div_1</title>
+		<style type = "text/css">
+
+		.pai{
+			height:600px;
+			border:4px solid black;
+			margin-left:300px;
+		}
+		
+		.filha_1{
+			height:100px;			
+			background:#9999FF;
+		}
+
+		.filha_2{
+			height:50px;			
+			background:#FF8164;
+		}
+
+		.filha_3{
+			height:400px;			
+			background:#F7F5BC;
+			width: 25%;
+			float: left;
+		}
+
+		.filha_4{
+			height:400px;
+			background:#98FB98;
+			width: 50%;
+			float: left;
+		}
+
+												.filha_5{
+			height:400px;
+			background:#F1B04C;
+			width: 25%;
+			float: right;
+		}
+
+		.filha_6{
+			height:50px;
+			background:#DA8EE7;			
+			/*border:4px solid red;*/
+			clear: left;			
+		}				
+		
+		</style>
+	</head>
+	<body>
+		<div class=pai>
+
+			<div class = filha_1>
+				Header
+			</div>
+
+			<div class = filha_2>
+				Menu
+			</div>
+			
+			<div class = filha_3>
+				Left
+			</div>
+
+			<div class = filha_4>
+				Center
+			</div>
+
+			<div class = filha_5>
+				Right
+			</div>
+
+			<div class = filha_6>
+				Footer
+			</div>
+
+			<!--É imprescindível, ao se trabalhar com layout com div, dimensionar corretamente altura e largura, bem como manusear corretamente os parametros float e clear.-->
+		</div>
+
+	</body>
+</html>
